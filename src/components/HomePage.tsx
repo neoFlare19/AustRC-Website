@@ -1,11 +1,9 @@
 import { HeroSection } from './HeroSection';
 import { EventsSection } from './EventsSection';
 import { EducationalProgramsSection } from './EducationalProgramsSection';
-import { ResearchProjectsSection } from './ResearchProjectsSection';
-import { MentorshipSection } from './MentorshipSection';
+import { ResearchProjectsHomepageSection } from './ResearchProjectsHomepageSection';
 import { TestimonialsSection } from './TestimonialsSection';
 import { CollaborationsSection } from './CollaborationsSection';
-import { HallOfFameSection } from './HallOfFameSection';
 
 export function HomePage() {
   return (
@@ -13,9 +11,7 @@ export function HomePage() {
       <HeroSection />
       <EventsSection />
       <EducationalProgramsSection />
-      <ResearchProjectsSection />
-      <HallOfFameSection />
-      <MentorshipSection />
+      <ResearchProjectsHomepageSection />
       <TestimonialsSection />
       <CollaborationsSection />
     </main>
